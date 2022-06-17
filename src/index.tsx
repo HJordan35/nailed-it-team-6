@@ -7,6 +7,7 @@ import ObjectivePage from "./pages/Objective";
 import HomePage from "./pages/Home";
 import TeamsPage from "./pages/Teams";
 import ThanksPage from "./pages/Thanks";
+import WinnerPage from "./pages/Winner";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -20,6 +21,7 @@ root.render(
           <Route path="objective" element={<ObjectivePage />} />
           <Route path="teams" element={<TeamsPage />} />
           <Route path="thanks" element={<ThanksPage />} />
+          <Route path="winner" element={<WinnerPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
