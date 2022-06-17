@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useCountUp } from "react-countup";
+import Arcade from "../assets/arcade.jpeg";
 import JackpotSvg from "./jackpot-svg.tsx";
 
 type JackpotCounterProps = {};
@@ -22,7 +23,7 @@ const JackpotCounter = (props: JackpotCounterProps): JSX.Element => {
     if (isActive && isPaused === false) {
       interval = setInterval(() => {
         setTime((time) => time + 1);
-      }, 100);
+      }, 50);
     } else {
       clearInterval(interval);
     }
@@ -48,6 +49,9 @@ const JackpotCounter = (props: JackpotCounterProps): JSX.Element => {
   return (
     <>
       <div className="app-nav-image">
+        <div>
+          <img src={Arcade} alt="arcade" />
+        </div>
         <JackpotSvg activeLight={time} />
       </div>
       <div>
