@@ -2,6 +2,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(./assets/background.svg);
+  background-size:100% 100%;
+  background-size:cover;
 }
 
 .app-content {
@@ -34,6 +37,28 @@ footer > p {
   color: white;
 }
 
+.app-nav-image {
+  position: relative;
+  z-index: 1;
+}
+
+.app-nav-image > div {
+  position: absolute;
+  max-height: 250px;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+.app-nav-image img {
+  max-width: 100%;
+  z-index: -1;
+}
+
 .app-nav-image > svg {
   width: 100%;
+  z-index: 99999;
 }
+
+
