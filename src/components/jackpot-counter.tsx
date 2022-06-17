@@ -1,29 +1,61 @@
-import React, { useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { useCountUp } from "react-countup";
+import JackpotSvg from "./jackpot-svg.tsx";
 
 type JackpotCounterProps = {};
 
 const JackpotCounter = (props: JackpotCounterProps): JSX.Element => {
-  const countUpRef = useRef(null);
-  const { start, pauseResume, reset, update } = useCountUp({
-    ref: countUpRef,
-    start: 0,
-    end: 35,
-    duration: 2,
-    onReset: () => console.log("Resetted!"),
-    onUpdate: () => console.log("Updated!"),
-    onPauseResume: () => console.log("Paused or resumed!"),
-    onStart: ({ pauseResume }) => console.log(pauseResume),
-    onEnd: ({ pauseResume }) => start(),
-  });
+  const [isActive, setIsActive] = useState(false);
+  const [isPaused, setIsPaused] = useState(true);
+  const [time, setTime] = useState(0);
+
+  useEffect(() => {
+    if (time >= 35) {
+      handleReset();
+      handleStart();
+    }
+  }, [time]);
+
+  useEffect(() => {
+    let interval: NodeJS.Timer | undefined = undefined;
+
+    if (isActive && isPaused === false) {
+      interval = setInterval(() => {
+        setTime((time) => time + 1);
+      }, 100);
+    } else {
+      clearInterval(interval);
+    }
+    return () => {
+      clearInterval(interval);
+    };
+  }, [isActive, isPaused]);
+
+  const handleStart = () => {
+    setIsActive(true);
+    setIsPaused(false);
+  };
+
+  const handlePauseResume = () => {
+    setIsPaused(!isPaused);
+  };
+
+  const handleReset = () => {
+    setIsActive(false);
+    setTime(0);
+  };
 
   return (
-    <div>
-      <div ref={countUpRef} />
-      <button onClick={() => start()}>Start</button>
-      <button onClick={() => reset()}>Reset</button>
-      <button onClick={() => pauseResume()}>Pause/Resume</button>
-    </div>
+    <>
+      <div className="app-nav-image">
+        <JackpotSvg activeLight={time} />
+      </div>
+      <div>
+        <button onClick={() => handleStart()}>START</button>
+        <button onClick={() => handlePauseResume()}>PAUSE</button>
+        {time}
+      </div>
+    </>
   );
 };
 

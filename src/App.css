@@ -34,6 +34,6 @@ footer > p {
   color: white;
 }
 
-.app-nav-image {
+.app-nav-image > svg {
   width: 100%;
 }
