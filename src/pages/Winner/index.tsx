@@ -1,36 +1,15 @@
 import React from "react";
-import Lottie from "react-lottie";
-import Thanks from "../../lotties/thanks.json";
-import Erin from "../../assets/erin_kovar.jpeg";
-import Kyle from "../../assets/kyle_ahlstrom.jpg";
+import PleaseWait from "../../assets/PleaseWaitBanner.svg";
+import WinnerBanner from "../../assets/WinnerBanner.svg";
 
-import "./thanks.css";
+import "./winner.css";
 
 function WinnerPage() {
 
   return (
-    <div className="thanks-page">
-      <div>
-        <h1 className="thanks-title">Thank You</h1>
-        <p className="thanks-subtitle">
-          Make sure to say thank you to our awesome Hackathon team who made this
-          event possible!
-        </p>
-        <div className="thanks-avatars">
-          <div>
-            <div className="thanks-avatar">
-              <img src={Kyle} alt="Kyle" />
-            </div>
-            <p className="thanks-name"> Kyle Ahlstrom</p>
-          </div>
-          <div>
-            <div className="thanks-avatar">
-              <img src={Erin} alt="Erin" />
-            </div>
-            <p className="thanks-name"> Erin Kovar</p>
-          </div>
-        </div>
-      </div>
+    <div className="winner-page">
+        <img className="winnerBanner" src={WinnerBanner} alt="" />
+        <img className="pleaseWaitText" src={PleaseWait} alt="" />
     </div>
   );
 }
