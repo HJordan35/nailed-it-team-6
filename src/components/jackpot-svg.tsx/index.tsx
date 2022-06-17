@@ -2430,96 +2430,7 @@ const JackpotSvg = (props: JackpotSvgProps): JSX.Element => {
         fill="#FFFFFF"
         opacity={activeLight === 35 ? 1 : 0.5}
       />
-      <rect x="4312" y="973" width="230" height="518" fill="url(#pattern151)" />
-      <rect
-        x="4348"
-        y="1009"
-        width="158"
-        height="446"
-        fill="url(#pattern152)"
-      />
-      <rect
-        x="4356"
-        y="1008"
-        width="142"
-        height="430"
-        fill="url(#pattern153)"
-      />
-      <rect x="5042" y="973" width="231" height="518" fill="url(#pattern154)" />
-      <rect
-        x="5078"
-        y="1009"
-        width="159"
-        height="446"
-        fill="url(#pattern155)"
-      />
-      <rect
-        x="5086"
-        y="1008"
-        width="143"
-        height="430"
-        fill="url(#pattern156)"
-      />
-      <rect x="6724" y="974" width="231" height="518" fill="url(#pattern157)" />
-      <rect
-        x="6760"
-        y="1010"
-        width="159"
-        height="446"
-        fill="url(#pattern158)"
-      />
-      <rect
-        x="6768"
-        y="1004"
-        width="143"
-        height="430"
-        fill="url(#pattern159)"
-      />
-      <rect x="3358" y="974" width="231" height="518" fill="url(#pattern160)" />
-      <rect
-        x="3394"
-        y="1010"
-        width="159"
-        height="446"
-        fill="url(#pattern161)"
-      />
-      <rect
-        x="3402"
-        y="1004"
-        width="143"
-        height="430"
-        fill="url(#pattern162)"
-      />
-      <rect x="5993" y="974" width="231" height="518" fill="url(#pattern163)" />
-      <rect
-        x="6029"
-        y="1009.9"
-        width="159"
-        height="447"
-        fill="url(#pattern164)"
-      />
-      <rect
-        x="6037"
-        y="1003.9"
-        width="143"
-        height="431"
-        fill="url(#pattern165)"
-      />
-      <rect x="2627" y="974" width="231" height="518" fill="url(#pattern166)" />
-      <rect
-        x="2663"
-        y="1009.9"
-        width="159"
-        height="447"
-        fill="url(#pattern167)"
-      />
-      <rect
-        x="2671"
-        y="1003.9"
-        width="143"
-        height="431"
-        fill="url(#pattern168)"
-      />
+
       <path
         d="M1427.82 1162.47C1426.67 1162.47 1425.5 1162.42 1424.34 1162.33C1416 1161.63 1408.63 1158.64 1402.45 1153.45C1399.39 1150.93 1396.83 1147.86 1394.89 1144.41C1392.02 1139.22 1390.77 1133.63 1391.06 1127.33C1391.23 1123.6 1391.15 1119.84 1391.08 1116.2C1391.05 1114.73 1391.02 1113.21 1391 1111.73C1390.96 1107.85 1391.55 1103.87 1392.81 1099.58C1392.82 1099.54 1392.85 1099.5 1392.87 1099.46C1392.92 1099.37 1392.97 1099.27 1393.01 1099.17L1393.13 1098.92L1393.18 1098.64C1393.47 1097 1394.29 1095.46 1395.15 1093.83L1395.44 1093.29C1397.2 1089.87 1399.54 1086.78 1402.35 1084.16C1406.98 1079.92 1411.72 1077.12 1416.84 1075.58C1419.85 1074.67 1422.96 1074.14 1426.1 1074L1429.36 1074.01C1430.18 1074.2 1431.02 1074.29 1431.86 1074.29C1432.3 1074.29 1432.75 1074.32 1433.19 1074.38C1439.1 1075.34 1444.04 1077.26 1448.29 1080.25C1448.51 1080.41 1448.74 1080.56 1448.97 1080.72C1450.68 1081.91 1452.3 1083.04 1453.35 1084.61C1453.65 1085.04 1454.02 1085.41 1454.44 1085.72C1454.54 1085.8 1454.63 1085.88 1454.69 1085.93C1455.56 1086.76 1456.2 1087.42 1456.54 1088.2L1456.69 1088.53L1457.26 1089.15L1457.5 1089.95L1457.95 1090.13L1458.34 1090.74V1090.95L1458.77 1091.51C1460.44 1093.7 1461.5 1096.26 1462.58 1099.42C1462.73 1099.85 1462.85 1100.31 1462.99 1100.81C1463.05 1101.05 1463.12 1101.29 1463.19 1101.53L1463.2 1101.58L1463.22 1101.63C1463.73 1103.15 1464.21 1104.59 1464.01 1106L1463.94 1106.49L1464.1 1106.96C1464.38 1107.91 1464.51 1108.91 1464.47 1109.9C1464.47 1111.24 1464.48 1112.58 1464.49 1113.93C1464.51 1117.35 1464.53 1120.88 1464.36 1124.32C1464.29 1125.57 1464.3 1126.81 1464.3 1128.01C1464.3 1130.22 1464.31 1132.3 1463.93 1134.35C1462.98 1139.85 1460.57 1145.01 1456.98 1149.28C1452.72 1154.35 1447.34 1157.97 1440.52 1160.34C1436.44 1161.76 1432.14 1162.48 1427.82 1162.47L1427.82 1162.47Z"
         fill="#FFFFFF"
@@ -2545,13 +2456,22 @@ const JackpotSvg = (props: JackpotSvgProps): JSX.Element => {
         fill="#FFFFFF"
         opacity={activeLight === 30 ? 1 : 0.5}
       />
-      <rect x="7639" y="930" width="303" height="590" fill="url(#pattern174)" />
+
+      <rect
+        x="7639"
+        y="930"
+        width="303"
+        height="590"
+        fill="url(#pattern174)"
+        style={{ visibility: activeLight === 30 ? "visible" : "hidden" }}
+      />
       <rect
         x="7711"
         y="1002"
         width="159"
         height="446"
         fill="url(#pattern175)"
+        style={{ visibility: activeLight === 30 ? "visible" : "hidden" }}
       />
       <rect
         x="7719"
@@ -2559,17 +2479,23 @@ const JackpotSvg = (props: JackpotSvgProps): JSX.Element => {
         width="143"
         height="430"
         fill="url(#pattern176)"
+        style={{ visibility: activeLight === 30 ? "visible" : "hidden" }}
       />
-      <rect x="902" y="930" width="303" height="590" fill="url(#pattern177)" />
-      <rect x="974" y="1002" width="159" height="446" fill="url(#pattern178)" />
-      <rect x="982" y="1002" width="143" height="430" fill="url(#pattern179)" />
-      <rect x="8372" y="930" width="303" height="590" fill="url(#pattern180)" />
+      <rect
+        x="8372"
+        y="930"
+        width="303"
+        height="590"
+        fill="url(#pattern180)"
+        style={{ visibility: activeLight === 30 ? "visible" : "hidden" }}
+      />
       <rect
         x="8444"
         y="1002"
         width="159"
         height="446"
         fill="url(#pattern181)"
+        style={{ visibility: activeLight === 30 ? "visible" : "hidden" }}
       />
       <rect
         x="8452"
@@ -2577,14 +2503,192 @@ const JackpotSvg = (props: JackpotSvgProps): JSX.Element => {
         width="143"
         height="430"
         fill="url(#pattern182)"
+        style={{ visibility: activeLight === 30 ? "visible" : "hidden" }}
       />
-      <rect x="1635" y="930" width="303" height="590" fill="url(#pattern183)" />
+      <rect
+        x="4312"
+        y="973"
+        width="230"
+        height="518"
+        fill="url(#pattern151)"
+        style={{ visibility: activeLight === 18 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="4348"
+        y="1009"
+        width="158"
+        height="446"
+        fill="url(#pattern152)"
+        style={{ visibility: activeLight === 18 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="4356"
+        y="1008"
+        width="142"
+        height="430"
+        fill="url(#pattern153)"
+        style={{ visibility: activeLight === 18 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="5042"
+        y="973"
+        width="231"
+        height="518"
+        fill="url(#pattern154)"
+        style={{ visibility: activeLight === 18 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="5078"
+        y="1009"
+        width="159"
+        height="446"
+        fill="url(#pattern155)"
+        style={{ visibility: activeLight === 18 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="5086"
+        y="1008"
+        width="143"
+        height="430"
+        fill="url(#pattern156)"
+        style={{ visibility: activeLight === 18 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="6724"
+        y="974"
+        width="231"
+        height="518"
+        fill="url(#pattern157)"
+        style={{ visibility: activeLight === 24 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="6760"
+        y="1010"
+        width="159"
+        height="446"
+        fill="url(#pattern158)"
+        style={{ visibility: activeLight === 24 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="6768"
+        y="1004"
+        width="143"
+        height="430"
+        fill="url(#pattern159)"
+        style={{ visibility: activeLight === 24 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="5993"
+        y="974"
+        width="231"
+        height="518"
+        fill="url(#pattern163)"
+        style={{ visibility: activeLight === 24 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="6029"
+        y="1009.9"
+        width="159"
+        height="447"
+        fill="url(#pattern164)"
+        style={{ visibility: activeLight === 24 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="6037"
+        y="1003.9"
+        width="143"
+        height="431"
+        fill="url(#pattern165)"
+        style={{ visibility: activeLight === 24 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="3358"
+        y="974"
+        width="231"
+        height="518"
+        fill="url(#pattern160)"
+        style={{ visibility: activeLight === 12 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="3394"
+        y="1010"
+        width="159"
+        height="446"
+        fill="url(#pattern161)"
+        style={{ visibility: activeLight === 12 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="3402"
+        y="1004"
+        width="143"
+        height="430"
+        fill="url(#pattern162)"
+        style={{ visibility: activeLight === 12 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="2627"
+        y="974"
+        width="231"
+        height="518"
+        fill="url(#pattern166)"
+        style={{ visibility: activeLight === 12 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="2663"
+        y="1009.9"
+        width="159"
+        height="447"
+        fill="url(#pattern167)"
+        style={{ visibility: activeLight === 12 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="2671"
+        y="1003.9"
+        width="143"
+        height="431"
+        fill="url(#pattern168)"
+        style={{ visibility: activeLight === 12 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="902"
+        y="930"
+        width="303"
+        height="590"
+        fill="url(#pattern177)"
+        style={{ visibility: activeLight === 6 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="974"
+        y="1002"
+        width="159"
+        height="446"
+        fill="url(#pattern178)"
+        style={{ visibility: activeLight === 6 ? "visible" : "hidden" }}
+      />
+      <rect
+        x="982"
+        y="1002"
+        width="143"
+        height="430"
+        fill="url(#pattern179)"
+        style={{ visibility: activeLight === 6 ? "visible" : "hidden" }}
+      />
+
+      <rect
+        x="1635"
+        y="930"
+        width="303"
+        height="590"
+        fill="url(#pattern183)"
+        style={{ visibility: activeLight === 6 ? "visible" : "hidden" }}
+      />
       <rect
         x="1707"
         y="1002"
         width="159"
         height="446"
         fill="url(#pattern184)"
+        style={{ visibility: activeLight === 6 ? "visible" : "hidden" }}
       />
       <rect
         x="1715"
@@ -2592,6 +2696,7 @@ const JackpotSvg = (props: JackpotSvgProps): JSX.Element => {
         width="143"
         height="430"
         fill="url(#pattern185)"
+        style={{ visibility: activeLight === 6 ? "visible" : "hidden" }}
       />
       <path
         d="M1249.52 635.862L1246.06 643.424C1245.43 644.475 1244.8 645 1244.17 645H1225.57C1224.73 645 1224.1 644.58 1223.68 643.74C1223.26 642.899 1222.21 640.588 1220.53 636.807C1219.06 632.816 1217.17 628.194 1214.86 622.942C1212.55 617.481 1210.13 611.704 1207.61 605.612C1205.09 599.52 1202.68 593.953 1200.37 588.911C1198.26 583.659 1196.48 579.353 1195.01 575.992C1193.75 572.63 1193.12 570.95 1193.12 570.95V540.069C1193.12 538.599 1193.85 537.864 1195.32 537.864H1207.3C1208.14 537.864 1208.77 538.284 1209.19 539.124L1249.52 635.862ZM1189.97 570.95C1189.97 570.95 1189.23 572.63 1187.76 575.992C1186.5 579.353 1184.71 583.659 1182.4 588.911C1180.3 593.953 1177.99 599.52 1175.47 605.612C1172.95 611.704 1170.54 617.481 1168.22 622.942C1165.91 628.194 1163.92 632.816 1162.24 636.807C1160.77 640.588 1159.82 642.899 1159.4 643.74C1158.98 644.58 1158.35 645 1157.51 645H1138.92C1137.87 645 1137.13 644.475 1136.71 643.424L1133.56 635.862L1173.9 539.124C1174.32 538.284 1174.95 537.864 1175.79 537.864H1187.76C1189.23 537.864 1189.97 538.599 1189.97 540.069V570.95ZM1189.97 532.507C1189.97 533.977 1189.23 534.712 1187.76 534.712H1175.79C1174.95 534.712 1174.32 534.292 1173.9 533.452L1133.56 437.029L1136.71 429.467C1137.13 428.416 1137.87 427.891 1138.92 427.891H1157.51C1158.35 427.891 1158.98 428.311 1159.4 429.152C1159.82 429.992 1160.77 432.408 1162.24 436.399C1163.92 440.18 1165.91 444.802 1168.22 450.264C1170.54 455.515 1172.95 461.187 1175.47 467.28C1177.99 473.372 1180.3 478.938 1182.4 483.98C1184.71 489.022 1186.5 493.328 1187.76 496.9C1189.23 500.261 1189.97 501.941 1189.97 501.941V532.507ZM1249.52 437.029L1209.19 533.452C1208.77 534.292 1208.14 534.712 1207.3 534.712H1195.32C1193.85 534.712 1193.12 533.977 1193.12 532.507V501.941C1193.12 501.941 1193.75 500.261 1195.01 496.9C1196.48 493.328 1198.26 489.022 1200.37 483.98C1202.68 478.938 1205.09 473.372 1207.61 467.28C1210.13 461.187 1212.55 455.515 1214.86 450.264C1217.17 444.802 1219.06 440.18 1220.53 436.399C1222.21 432.408 1223.26 429.992 1223.68 429.152C1224.1 428.311 1224.73 427.891 1225.57 427.891H1244.17C1245.22 427.891 1245.74 428.311 1245.74 429.152L1249.52 437.029Z"
